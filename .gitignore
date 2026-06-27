@@ -1,0 +1,25 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# pytest cache
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated outputs
+archive/*
+reports/*
+
+# Keep folders visible in Git
+!archive/.gitkeep
+!reports/.gitkeep
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/

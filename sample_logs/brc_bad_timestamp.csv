@@ -1,0 +1,7 @@
+timestamp_ms,ecu,state,signal,value,error_code
+0,BRC,NORMAL,ntc_raw,300,0
+10,BRC,NORMAL,pwm_duty,100,0
+20,BRC,WARN,ntc_raw,760,1
+15,BRC,WARN,pwm_duty,50,1
+40,BRC,CRITICAL,ntc_raw,980,2
+50,BRC,CRITICAL,pwm_duty,0,2
